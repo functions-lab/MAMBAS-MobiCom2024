@@ -21,15 +21,15 @@ In Python, open `main.py`.
 You can customize the arguments below:
 
 1. `scheduler`: the user selection algorithm, where
-   **`DP`**: the dynamic programming algorithm proposed in the paper;
-   `TDMA`: the baseline that only selects a single user using standard proportional fair (PF);
-   `All`: the baseline that always select all the users;
-   `Spacing`: the baseline of `S2-MAS` that selects the subset of users with a minimum angular spacing;
+   - **`DP`**: the dynamic programming algorithm proposed in the paper;
+   - `TDMA`: the baseline that only selects a single user using standard proportional fair (PF);
+   - `All`: the baseline that always select all the users;
+   - `Spacing`: the baseline of `S2-MAS` that selects the subset of users with a minimum angular spacing;
 3. `optimizer`: the beamforming optimization algorithm, where
-   `Individual`: the `MAX-GAIN-ZF` algorithm proposed in the paper;
-   `Conjugate`: the baseline of conjugate beamforming, discussed in Eq. (2) in the paper;
-   `MU-ZF`: the baseline of full digital multi-user beamforming with zero-forcing, discussed in Eq. (3) in the paper;
-   `Nullify`: the baseline of `Nulli-Fi`, which fine-tunes the beamforming weights from conjugate beamforming to minimize the cross-user interference;
+   - `Individual`: the `MAX-GAIN-ZF` algorithm proposed in the paper;
+   - `Conjugate`: the baseline of conjugate beamforming, discussed in Eq. (2) in the paper;
+   - `MU-ZF`: the baseline of full digital multi-user beamforming with zero-forcing, discussed in Eq. (3) in the paper;
+   - `Nullify`: the baseline of `Nulli-Fi`, which fine-tunes the beamforming weights from conjugate beamforming to minimize the cross-user interference;
 5. `bound`: the field of view (FoV) of the BS, or the min/max azimuth angle of the users, in the unit of `degree`;
 6. `ueNum`: the number of users, which is `U` in the paper;
 7. `elem`: the number of elements in a subarray as a `elemx1` geometry, which is `N_s` in the paper;

@@ -6,6 +6,12 @@ First things first, you need a pair of USRPs and the installed UHD. You may foll
 
 https://files.ettus.com/manual/page_build_guide.html
 
+### Step 0 (Optional): 
+
+Beyond USRP, you may setup the IBM 28 GHz PAAM boards in COSMOS testbed following the link below:
+
+https://wiki.cosmos-lab.org/wiki/Tutorials/Wireless/mmwavePaamBasics
+
 ### Step 1: Configure UHD Interfaces
 
 Different UHD versions have different executable files. Therefore, you may need to replace the executable files in this code by the example executable files in your UHD version.

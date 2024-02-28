@@ -41,3 +41,13 @@ You can find the codes in the folder [5g-protocol-implementation](./5g-protocol-
 ![alt text](sim-cdf-sum-rate-new.png)
 
 ![alt text](sim-bar-varying-param-new.png)
+
+## Reference
+
+If you find our work useful in your research, please consider citing our paper:
+
+Mambas: Maneuvering Analog Multi-User Beamforming using an Array of Subarrays in mmWave Networks
+
+If you have any further questions, please feel free to contact us at :D
+
+zhihui.gao@duke.edu

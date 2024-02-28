@@ -36,7 +36,7 @@ There are three steps in the simulations:
 2. Perform Mambas or other baselines on the generated Ray-Tracing dataset
 3. Plot the simulation results
 
-You can find the codes in the folder [5g-protocol-implementation](./5g-protocol-implementation), and eventually you can implement the simulation experiments as shown in Fig. 13-14 in the paper (shown below).
+You can find the codes in the folder [ray-tracing-based-simulations](./ray-tracing-based-simulations), and eventually you can implement the simulation experiments as shown in Fig. 13-14 in the paper (shown below).
 
 ![alt text](sim-cdf-sum-rate-new.png)
 

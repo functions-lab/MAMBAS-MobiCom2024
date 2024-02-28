@@ -17,6 +17,10 @@ b) the ray-tracing based simulations (labeled as [Simulation] in paper).
 **MATLAB**
 1. `5G Toolbox`
 
+**UHD**
+
+UHD 4.5.0 is recommended, and in this case, you can skip [Step 1](./5g-protocol-implementation).
+
 ## 5G Protocol Implementation
 
 This 5G protocol implementation measures the over-the-air metrics, SNR, EVM, BLER, BER and etc, under an over-the-air USRP setting. 

@@ -6,6 +6,17 @@ a) the 5G protocol implementation on the COSMOS testbed (labeled as [Testbed] in
 
 b) the ray-tracing based simulations (labeled as [Simulation] in paper).
 
+## Prerequisite
+**Python**
+1. `numpy`: e.g., `conda install anaconda::numpy`
+2. `tqdm`: e.g., `conda install conda-forge::tqdm`
+3. `scipy`: e.g., `conda install anaconda::scipy`
+4. `matplotlib`: e.g., `conda install conda-forge::matplotlib`
+5. `casadi`: e.g., `conda install conda-forge::casadi`
+
+**MATLAB**
+1. `5G Toolbox`
+
 ## 5G Protocol Implementation
 
 This 5G protocol implementation measures the over-the-air metrics, SNR, EVM, BLER, BER and etc, under an over-the-air USRP setting. 

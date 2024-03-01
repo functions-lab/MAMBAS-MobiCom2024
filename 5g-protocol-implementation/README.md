@@ -52,6 +52,10 @@ To change SNR, you may either
 
 To change MCS, open `GetParam.m` and customize `param.modu` for modulation and `param.code` for code rate.
 
+For the 28 levels of MCSs in 5G, you may refer to the table `Table 5.1.3.1-2: MCS index table 2 for PDSCH` in the link below:
+
+[https://www.sharetechnote.com/html/5G/5G_MCS_TBS_CodeRate.html](https://www.sharetechnote.com/html/5G/5G_MCS_TBS_CodeRate.html)
+
 Note that we always assign the `TX/RX` port for transmission and `RX2` port for reception.
 
 ![alt text](../exp_sb2_rate_snr.png)

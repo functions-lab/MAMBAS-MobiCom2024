@@ -10,7 +10,7 @@ https://files.ettus.com/manual/page_build_guide.html
 
 Beyond USRP, you may setup the IBM 28 GHz PAAM boards in COSMOS testbed following the link below:
 
-https://wiki.cosmos-lab.org/wiki/Tutorials/Wireless/mmwavePaamBasics
+[https://wiki.cosmos-lab.org/wiki/Tutorials/Wireless/mmwavePaamBasics](https://wiki.cosmos-lab.org/wiki/Tutorials/Wireless/mmwavePaamLinkRate)
 
 ### Step 1: Configure UHD Interfaces
 

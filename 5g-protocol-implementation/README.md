@@ -26,7 +26,8 @@ Go to the `example` folder of your UHD installations, which is `/usr/local/lib/u
 In MATLAB, open `GetParam.m`, and configure the parameters below:
 
 1. `param.carrier`: the carrier frequency of the TX and RX;
-2. `param.subdevTx` and `param.subdevRX`: the subdevice settings of the TX/RX USRP, e.g., `A:0` for X series and `A:A` for B series, and you may find more detials in the link below:
+2. `param.deviceTx` and `param.deviceRx`: the IP address for the TX/RX USRP.
+3. `param.subdevTx` and `param.subdevRX`: the subdevice settings of the TX/RX USRP, e.g., `A:0` for X series and `A:A` for B series, and you may find more detials in the link below:
    https://files.ettus.com/manual/page_configuration.html
 4. `param.gainTx` and `param.gainRx`: the TX/RX gain of the USRPs, whose range varies over different USRP types, which can be find by running `uhd_usrp_probe` command in the terminal.
 

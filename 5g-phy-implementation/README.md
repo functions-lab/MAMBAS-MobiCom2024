@@ -1,4 +1,4 @@
-## 5G Protocol Implementation
+## 5G PHY Implementation
 
 In this code, you can measure the metrics, including CFO/SNR/EVM/BLER/BER/CSI, under the 5G standard between two USRPs.
 

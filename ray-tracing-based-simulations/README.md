@@ -12,6 +12,9 @@ You can customize the three parameters below:
 2. `distBound`: the min/max BS-user distance in the unit of `m`;
 3. `angleBound`: the field of view (FoV) of the BS, or the min/max azimuth angle of the users, in the unit of `degree`.
 
+Below is an example of the MATLAB Ray-Tracing interface.
+![alt text](./simulation-ray-tracing.png)
+
 Generating the whole dataset can take hours. To skip the process, you may unzip `Dataset.zip`, which is pre-generated under the given settings.
 
 ### Step 2: Perform Mambas
@@ -48,6 +51,8 @@ You can customize the parameters below to specify the results to be visualized:
 1. `scenarioShow`: the scenario index to see the scheduling details;
 2. `slotNum`: the number of time slots of the simulation, which should be lower than `20`.
 
-![alt text](../sim-cdf-sum-rate-new.png)
+For the first figure (an example show below), it shows the detailed scheduling of one simulated Ray-Tracing scenario (X axis as the time slot index and Y axis as the user index) over baselines and proposed Mambas, where each grid indicates the data rate (in Mbps) achieved given the time slot and user. Note that `0` means either the user is not activated or packet loss.
+![alt text](./simulation-detail.png)
 
-![alt text](../sim-bar-varying-param-new.png)
+For the second figure (an example show below), it shows the statistical results over all the Ray-Tracing scenarios w.r.t. the averged data rates over users per scenario.
+![alt text](./simulation-cdf.png)

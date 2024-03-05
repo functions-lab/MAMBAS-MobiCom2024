@@ -42,7 +42,8 @@ The displayed information include:
 4. `BLER`: block error rate (only one block is transmitted and it can be either `0` for success and `1` for failure);
 5. `BER`: bit error rate
 6. `CSI`: the amplitudes and the phases of the channel state information over all the subcarriers
-7. `Constel.png`: the saved constellation plot.
+7. `Constel.png`: the saved constellation plot; an example of the constellation plot is shown below.
+![alt text](./testbed-constellation.png)
 
 ### Step 4: Change the SNR/MCS
 
@@ -57,5 +58,3 @@ For the 28 levels of MCSs in 5G, you may refer to the table `Table 5.1.3.1-2: MC
 [https://www.sharetechnote.com/html/5G/5G_MCS_TBS_CodeRate.html](https://www.sharetechnote.com/html/5G/5G_MCS_TBS_CodeRate.html)
 
 Note that we always assign the `TX/RX` port for transmission and `RX2` port for reception.
-
-![alt text](../exp_sb2_rate_snr.png)

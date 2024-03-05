@@ -54,5 +54,5 @@ You can customize the parameters below to specify the results to be visualized:
 For the first figure (an example show below), it shows the detailed scheduling of one simulated Ray-Tracing scenario (X axis as the time slot index and Y axis as the user index) over baselines and proposed Mambas, where each grid indicates the data rate (in Mbps) achieved given the time slot and user. Note that `0` means either the user is not activated or packet loss.
 ![alt text](./simulation-detail.png)
 
-For the second figure (an example show below), it shows the statistical results over all the Ray-Tracing scenarios w.r.t. the averged data rates over users per scenario.
+For the second figure (an example show below), it shows the statistical results over all the Ray-Tracing scenarios w.r.t. the averaged data rates over users per scenario.
 ![alt text](./simulation-cdf.png)

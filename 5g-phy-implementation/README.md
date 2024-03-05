@@ -48,8 +48,11 @@ The displayed information include:
 4. `BLER`: block error rate (only one block is transmitted and it can be either `0` for success and `1` for failure);
 5. `BER`: bit error rate
 6. `CSI`: the amplitudes and the phases of the channel state information over all the subcarriers; an example of the CSI amplitudes is shown below, where the four colors refer to the CSI acquired by the four DMRS symbols
+
 ![alt text](./testbed-csi.png)
+
 8. `Constel.png`: the saved constellation plot; an example of the constellation plot is shown below, the two color means the PDSCH in the side/middle of the time slot
+
 ![alt text](./testbed-constellation.png)
 
 ### Step 4: Change the SNR/MCS

@@ -6,12 +6,6 @@ First things first, you need a pair of USRPs and the installed UHD. You may foll
 
 https://files.ettus.com/manual/page_build_guide.html
 
-### Step 0 (Optional): 
-
-Beyond USRP, you may setup the IBM 28 GHz PAAM boards in COSMOS testbed following the link below:
-
-[https://wiki.cosmos-lab.org/wiki/Tutorials/Wireless/mmwavePaamBasics](https://wiki.cosmos-lab.org/wiki/Tutorials/Wireless/mmwavePaamLinkRate)
-
 ### Step 1: Configure UHD Interfaces
 
 Different UHD versions have different executable files. Therefore, you may need to replace the executable files in this code by the example executable files in your UHD version.
@@ -54,6 +48,21 @@ The displayed information include:
 8. `Constel.png`: the saved constellation plot; an example of the constellation plot is shown below, the two color means the PDSCH in the side/middle of the time slot
 
 ![alt text](./testbed-constellation.png)
+
+
+**(Optional)** 
+Beyond USRP, you may setup the IBM 28 GHz PAAM boards in COSMOS testbed following the link below:
+
+[https://wiki.cosmos-lab.org/wiki/Tutorials/Wireless/mmwavePaamBasics](https://wiki.cosmos-lab.org/wiki/Tutorials/Wireless/mmwavePaamLinkRate)
+
+To conduct this on COSMOS (where MATLAB is not certificated), you may pause the MATLAB code at `line 35 in tx2rx/Tx2Rx.m`, following the three steps before resuming:
+1. Upload the generated binary file for the transmitted waveform in `tx2rx/Buffer/Tx.bin` to the COSMOS server,
+2. Execute the bash script `Tx2Rx.sh` using exactly the same verboses (except the paths) provided by `line 35 in tx2rx/Tx2Rx.m`,
+
+   e.g., `"bash Tx2Rx.sh 3000000000 50000000 192.168.70.3 A:0 15 ./Buffer/Tx.bin 192.168.70.9 A:0 15 ./Buffer/Rx.bin 3057960"`
+4. Download the binary file for the received waveform in `tx2rx/Buffer/Rx.bin` to local.
+
+Note that on the COSMOS server, you should follow the same folder structure within `tx2rx/`, and the two UHD applications (`tx_samples_from_file` and `rx_samples_to_file`) are required.
 
 ### Step 4: Change the SNR/MCS
 

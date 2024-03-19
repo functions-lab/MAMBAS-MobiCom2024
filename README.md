@@ -46,7 +46,14 @@ You can find the codes in the folder [ray-tracing-based-simulations](./ray-traci
 
 If you find our work useful in your research, please consider citing our paper:
 
-Mambas: Maneuvering Analog Multi-User Beamforming using an Array of Subarrays in mmWave Networks
+```console
+@inproceedings{gao2024mambas,
+  title={Mambas: Maneuvering analog multi-user beamforming using an array of subarrays in mmWave networks},
+  author={Gao, Zhihui and Qi, Zhenzhou and Chen, Tingjun},
+  booktitle={Proc. ACM MobiCom'24},
+  year={2024}
+}
+```
 
 If you have any further questions, please feel free to contact us at :D
 

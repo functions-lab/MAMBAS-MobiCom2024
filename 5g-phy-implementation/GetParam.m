@@ -13,11 +13,11 @@ function param = GetParam()
     % USRP Setting
     param.carrier = 3.0e9;
 
-    param.subdevTx = "A:0";
-    param.deviceTx = "192.168.70.3";
-    param.gainTx = 15;
+    param.subdevTx = "B:1";
+    param.deviceTx = "10.117.2.1";
+    param.gainTx = 30;
     
-    param.deviceRx = "192.168.70.9";
-    param.subdevRx = "A:0";
-    param.gainRx = 15;
+    param.deviceRx = "10.117.3.1";
+    param.subdevRx = "B:1";
+    param.gainRx = 40;
 end

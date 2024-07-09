@@ -13,8 +13,11 @@ Different UHD versions have different executable files. Therefore, you may need 
 Go to the `example` folder of your UHD installations, which is `/usr/local/lib/uhd/examples/` by default, and then
 
 1. Copy the TX executable file `tx_samples_from_file` and replace it under `./tx2rx/tx_samples_from_file` of this repo.
+   
    For example, you can try `cp /usr/local/lib/uhd/examples/tx_samples_from_file ./tx2rx/`.
+   
 2. Copy the RX executable file `rx_samples_to_file` and replace it under `./tx2rx/rx_samples_to_file` of this repo.
+   
    For example, you can try `cp /usr/local/lib/uhd/examples/rx_samples_to_file ./tx2rx/`.
 
 ### Step 2: Configure USRP Parameters

@@ -54,7 +54,7 @@ The displayed information includes:
 **(Optional)** 
 Beyond USRP, you may set the IBM 28 GHz PAAM boards in the COSMOS testbed following the link below:
 
-[https://wiki.cosmos-lab.org/wiki/Tutorials/Wireless/mmwavePaamBasics](https://wiki.cosmos-lab.org/wiki/Tutorials/Wireless/mmwavePaamLinkRate)
+[https://wiki.cosmos-lab.org/wiki/Tutorials/Wireless/mmwavePaamLinkRate](https://wiki.cosmos-lab.org/wiki/Tutorials/Wireless/mmwavePaamLinkRate)
 
 To conduct this on COSMOS (where MATLAB is not certificated), you may pause the MATLAB code at `line 35 in tx2rx/Tx2Rx.m`, following the three steps before resuming:
 1. Upload the generated binary file for the transmitted waveform in `tx2rx/Buffer/Tx.bin` to the COSMOS server,
